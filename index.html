@@ -1,57 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ertuğrul Selim Öztürk</title>
+    <title>CSS Temel Ödevi</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <h1>Ertuğrul Selim Öztürk</h1>
-    <p>Bilgisayar Mühendisliği | Web Programlama</p>
-    <nav>
-        <ul>
-            <li><a href="index.html">Ana Sayfa</a></li>
-            <li><a href="about.html">Hakkımda</a></li>
-            <li><a href="interests.html">İlgi Alanlarım</a></li>
-            <li><a href="contact.html">İletişim</a></li>
-        </ul>
-    </nav>
-    <h2>Hoş Geldiniz</h2>
-    <p>Bu web sitesi, Web Programlama dersi kapsamında hazırlanmış olup <b>örnek bir kişisel tanıtım sayfasır.</b><br>
-    Amaç, HTML'in temel etiketlerini ve sayfa yapısını öğrenmektir.</p>
-    <p>Daha fazla bilgi için <em>Hakkımda</em> sayfasını ziyaret edebilirsiniz</p>
-    <h3>Hızlı Bİlgiler</h3>
-    <p>
-    <nav>
-        <ul>
-            <li>Üniversite: Marmara Üniversitesi</li>
-            <li>Bölüm: Bilgisayar Mühendisliği</li>
-            <li>İlgi Alanı: Web Teknolojileri</li>
-        </ul>
-    </nav>
-    </p>
-    <h2>Öğrenme Hedeflerim</h2>
-    <nav>
-        <ol>
-            <li>HTML temellerini öğrenmek</li>
-            <li>CSS ile sayfa tasarlamak</li>
-            <li>JavaScript ile etkileşim eklemek</li>
-            <li>ASP.NET Core ile dinamik site geliştirmek</li>
-        </ol>
-    </nav>
-    <h2>Faydalı Bağlantılar</h2>
-    <p>Aşağıdaki kaynakalar web geliştirme öğrenirken faydalı olabilir:</p>
-    <nav>
-        <ul>
-            <li><a href="https://www.w3schools.com/html/">W3Schools</a></li>
-            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Web Docs</a></li>
-            <li><a href="https://github.com/ErtugrulSelimOzturk">GitHub</a></li>
-            
-        </ul>
-    </nav>
-    <hr>
-    <footer>
-        <p>© 2026 Ertuğrul Selim Öztürk | Web Programlama Dersi</p>
-    </footer>
+    <div class="wrapper">
+        <header>
+            <h1>CSS Temel Ödevi</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Ana Sayfa</a></li>
+                    <li><a href="about.html">Hakkında</a></li>
+                    <li><a href="interests.html">Hizmetler</a></li>
+                    <li><a href="contact.html">İletişim</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="intro">
+                <p>Verilen benzer bir düzenle basit bir web sayfası oluşturun. CSS'in temel özelliklerini (
+                    <span class="highlight">display</span>, 
+                    <span class="highlight">width</span>, 
+                    <span class="highlight">height</span>, 
+                    <span class="highlight">margin</span>, 
+                    <span class="highlight">padding</span>, 
+                    <span class="highlight">border</span>, selector) uygulayın. 
+                    Sadece HTML5 + CSS3 kullanın, hazır framework kullanmak yasak (Bootstrap, Tailwind vb.).</p>
+            </div>
+
+            <div class="content-area">
+                <section class="content">
+                    <h2>İçerik</h2>
+                    <p>Bu alanda örnek içerik metinleri bulunmaktadır. CSS özellikleriyle bu metinler arasında <strong>boşluklar</strong> (line-height) ve hizalamalar (text-align) düzenlenir.</p>
+                    <p>Önce CSS ile kutuları / alanları yan yana getirmeyi, ardından alt alta yerleştirmeyi öğrendik. Şimdi ise CSS seçicilerini kullanarak <strong>grup</strong> ve hiyerarşik seçimler yapmayı göreceğiz.</p>
+                </section>
+
+                <aside class="sidebar">
+                    <h2>Yan Menü / Bilgi</h2>
+                    <p>Bu alan yan menü veya bilgi kısmıdır. CSS ile genişlik (width), yükseklik (height), kenar boşlukları (margin/padding) ve kenarlık (border) özelliklerini kullanarak düzenleyebiliriz.</p>
+                    <p>Öğrendiklerimizi hiyerarşik ve grup seçicilerle uygulayıp farklı bölümlere stil verebiliriz.</p>
+                </aside>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 CSS Temel Örnek. Bu sayfa basit bir HTML+CSS alıştırmasıdır.</p>
+        </footer>
+    </div>
 </body>
 </html>
