@@ -160,3 +160,87 @@ footer p {
     font-size: 13px;
     color: #777;
 }
+
+.contact-container {
+    width: 600px;
+    margin: auto;
+    padding: 28px;
+    border: 1px solid #cfd6e4;
+    border-radius: 10px;
+    background-color: #f8f9fc;
+}
+
+.contact-container h2 {
+    margin-top: 0;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.contact-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.contact-container input[type="text"],
+.contact-container input[type="email"],
+.contact-container input[type="password"],
+.contact-container select,
+.contact-container textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #c3cad8;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.contact-container input[type="file"] {
+    margin-bottom: 22px;
+}
+
+.choice-box {
+    margin-bottom: 16px;
+    padding: 14px;
+    border: 1px solid #d5dbe7;
+    border-radius: 6px;
+    background-color: #f1f3f8;
+}
+
+.choice-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.contact-container label.choice-item {
+    font-weight: 400;
+}
+
+.contact-container button {
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.button-row {
+    display: flex;
+    gap: 16px;
+}
+
+.button-row button {
+    flex: 1;
+}
+
+.btn-submit {
+    background-color: #1f73d8;
+}
+
+.btn-reset {
+    background-color: #dc3545;
+}
